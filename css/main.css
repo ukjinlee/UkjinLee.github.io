@@ -1,0 +1,168 @@
+body {
+	background-color: #f2f2f2;
+	font-family: "Lato";
+	/* OPTIONAL: Google Fonts - base font */
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway";
+	font-weight: 300;
+	color: #333;
+}
+
+/* Paragraph & Typographic */
+
+p {
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+.centered {
+	text-align: center;
+}
+
+/* Links */
+
+a {
+	color: #0366d6;
+	word-wrap: break-word;
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+a:hover, a:focus {
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+a:before, a:after {
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+/*---------------------------------------------------
+  SECTION WRAPS
+---------------------------------------------------*/
+
+
+/* Header Wrap */
+
+.header {
+	background: #f7f6f5;
+	background: url(../images/coffee.jpg) no-repeat center top;
+	padding-top: 100px;
+	padding-left: 330px;
+	padding-right: 330px;
+	padding-bottom: 100px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 400px;
+	width: 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.header h1 {
+	font-size: 26px;
+	line-height: 40px;
+	color: white;
+	text-align: left;
+	padding: 20px;
+}
+.footer {
+	background: #ddd;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	min-height: 200px;
+	width: 100%;
+}
+.footer h3 {
+	font-size: 20px;
+	color: #212429;
+	text-align: center;
+	line-height: 40px;
+}
+.footer h3 a {
+	color: #0C85AC;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* About Wrap */
+
+.about {
+	background: #2c3e50;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: white;
+}
+.about h5, p {
+	color: white;
+}
+.about i {
+	color: white;
+	font-size: 20px;
+	padding-right: 8px;
+	vertical-align: middle;
+}
+
+/* Global Values */
+
+.desc {
+	padding-top: 50px;
+}
+.desc p {
+	color: #2f2f2f;
+}
+.desc t {
+	color: #34495e;
+	font-weight: 700;
+}
+.desc imp {
+	padding: 6px;
+	color: white;
+	background: #34495e;
+}
+.desc more {
+	color: #616669;
+}
+sm {
+	font-size: 13px;
+}
+.desc .col-lg-3 {
+	/* text-transform: uppercase;*/
+}
+.container .row p.tight {
+	margin-bottom: 10px;
+}
+
+/* define some CSS3 animations: */
+
+body {
+	/* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
+	-webkit-backface-visibility: hidden;
+}
