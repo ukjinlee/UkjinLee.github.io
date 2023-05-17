@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DSD0DWD07B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-DSD0DWD07B', { 'debug_mode':true });
+</script>
+<body>
+    <h1>Page 1</h1>
+    <p><a href="page2.html">Page 2</a></p>
+    <p><button onclick="event1()">Event 1</button></p>
+    <p><button onclick="event2()">Event 2</button></p>
+</body>
+<script>
+    function event1() {
+        console.log("event1")
+        gtag('event', 'event_1', {});
+    }
+    function event2() {
+        console.log("event2")
+        gtag('event', 'event_2', {
+            'context': 'p1'
+        });
+    }
+</script>
+</html>
